@@ -1,5 +1,7 @@
 # Package for _Spline Prediction Intervals via Conformal Estimation_ (SPICE)
 
+[Pre-print link](https://arxiv.org/abs/2311.00774).
+
 ## Installation
 
 Installation uses `mamba` and was tested with `CUDA` Version: 12.1 and `python` 3.10.6.
