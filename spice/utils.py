@@ -72,6 +72,8 @@ def build_full_cmd(
 
 
 # end training script stuff
+# WSC code adapted from https://github.com/soudia/arc/blob/master/arc/coverage.py
+# paper: https://arxiv.org/abs/2006.02544
 
 
 def wsc(
@@ -147,6 +149,9 @@ def wsc_unbiased(
     # Estimate coverage
     coverage = wsc_vab(X_test, covered_test, v_star, a_star, b_star)
     return coverage
+
+
+# end WSC code
 
 
 @contextmanager
